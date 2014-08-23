@@ -10,3 +10,10 @@ Developerreply.password = "your_sendgrid_password"
 Developerreply.init!
 Developerreply.create({hostname: "domain.com", url: "http://webhook.com/wherever"})
 ```
+
+## Development
+
+```
+bundle install --binstubs=bin
+bin/rspec
+```
