@@ -7,7 +7,6 @@ Rubygem for adding hosts & urls to SendGrid's Parse Incoming Email settings (/de
 ```ruby
 Developerreply.username = "your_sendgrid_username"
 Developerreply.password = "your_sendgrid_password"
-Developerreply.init!
 Developerreply.create({hostname: "domain.com", url: "http://webhook.com/wherever"})
 ```
 
@@ -15,5 +14,7 @@ Developerreply.create({hostname: "domain.com", url: "http://webhook.com/wherever
 
 ```
 bundle install --binstubs=bin
+export SENDGRID_USERNAME=yourusername
+export SENDGRID_PASSWORD=yourpassword
 bin/rspec
 ```
