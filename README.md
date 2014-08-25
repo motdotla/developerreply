@@ -2,7 +2,7 @@
 
 ![](https://raw.githubusercontent.com/scottmotte/developerreply/master/developerreply.jpg)
 
-Rubygem for adding hosts & urls to SendGrid's Parse Incoming Email settings (/developer/reply).
+Programmatically add hosts & url settings to SendGrid's parse incoming email settings (/developer/reply).
 
 ## Usage
 

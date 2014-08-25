@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = Developerreply::VERSION
   gem.authors       = ["scottmotte"]
   gem.email         = ["mot@mot.la"]
-  gem.description   = %q{Ruby bindings for the SendGrid /developer/reply call.}
-  gem.summary       = %q{Ruby bindings for the SendGrid /developer/reply call.}
+  gem.description   = %q{Programmatically add hosts & url settings to SendGrid's parse incoming email settings (/developer/reply).}
+  gem.summary       = %q{Programmatically add hosts & url settings to SendGrid's parse incoming email settings (/developer/reply).}
   gem.homepage      = "http://github.com/scottmotte/developerreply"
 
   gem.add_dependency "faraday", "~> 0.8.9"
