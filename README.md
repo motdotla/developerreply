@@ -14,7 +14,7 @@ Developerreply.create({hostname: "domain.com", url: "http://webhook.com/wherever
 
 This will programmatically add to your list of [parse incoming email settings](https://sendgrid.com/developer/reply). Example:
 
-![](https://raw.githubusercontent.com/scottmotte/developerreply/master/developerreply-0.jpg)
+![](https://raw.githubusercontent.com/scottmotte/developerreply/master/developerreply-0.png)
 
 ## Installation
 
