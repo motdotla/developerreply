@@ -9,7 +9,7 @@ describe Developerreply do
       subject.password = nil
     end
 
-    it { subject::VERSION.should eq "0.0.1" }
+    it { expect(subject::VERSION).to eq("0.0.1") }
   end
 
   describe "setting values" do
@@ -21,7 +21,7 @@ describe Developerreply do
       subject.password = password
     end
 
-    it { subject.username.should eq username }
-    it { subject.password.should eq password }
+    it { expect(subject.username).to eq(username) }
+    it { expect(subject.password).to eq(password) }
   end
 end
