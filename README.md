@@ -12,6 +12,37 @@ Developerreply.password = "your_sendgrid_password"
 Developerreply.create({hostname: "domain.com", url: "http://webhook.com/wherever"})
 ```
 
+This will programmatically add to your list of [parse incoming email settings](https://sendgrid.com/developer/reply). Example:
+
+![](https://raw.githubusercontent.com/scottmotte/developerreply/master/developerreply-0.jpg)
+
+## Installation
+
+Add this to your application's Gemfile.
+
+```
+gem 'developerreply'
+```
+
+And then execute.
+
+```
+bundle
+```
+
+Or install yourself as:
+
+```
+gem install developerreply
+```
+
+Then in your application initialize the gem.
+
+```
+Developerreply.username = "your_sendgrid_username"
+Developerreply.password = "your_sendgrid_password"
+```
+
 ## Development
 
 ```
