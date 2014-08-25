@@ -20,3 +20,12 @@ export SENDGRID_USERNAME=yourusername
 export SENDGRID_PASSWORD=yourpassword
 bin/rspec
 ```
+
+## Publish to RubyGems.org
+
+You first need to request access from [scottmotte](http://github.com/scottmotte).
+
+```
+gem build developerreply.gemspec
+gem push developerreply-0.0.1.gem
+```
