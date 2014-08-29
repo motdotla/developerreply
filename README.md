@@ -4,6 +4,8 @@
 
 Programmatically add hosts & url settings to SendGrid's parse incoming email settings (/developer/reply).
 
+[![Gem Version](https://badge.fury.io/rb/developerreply.svg)](http://badge.fury.io/rb/developerreply)
+
 ## Usage
 
 ```ruby
